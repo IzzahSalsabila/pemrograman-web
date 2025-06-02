@@ -4,58 +4,119 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Informatika</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4A90E2;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffcc00;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 0 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 50%;
+        }
+
+        h2 {
+            border-bottom: 2px solid #4A90E2;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+
+        ol li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #4A90E2;
+            color: white;
+            margin-top: 50px;
+        }
+    </style>
 </head>
 <body>
-    <h1 align="center" > WEB INFORMATIKA </h1>
-    <hr width="50%" align="center" size="5px" color="darkgrey">
- 
+
+    <header>
+        <h1>WEB INFORMATIKA</h1>
+    </header>
+
     <nav>
-        <ul style="list-style-type: none; text-align: center; padding: 0%;">
-            <li style="display: inline; margin: 0% 15px; text-decoration: none;">
-                <a href="home.html">Home</a>
-            </li>
-            <li style="display: inline; margin: 0% 15px; text-decoration: none;">
-                <a href="about.html">About</a>
-            </li>   
-            <li style="display: inline; margin: 0% 15px; text-decoration: none;">
-            <a href="service.html">Services</a></li>
-            <li style="display: inline; margin: 0% 15px; text-decoration: none;">
-            <a href="contact.html">Contact</a></li>                                                     
-        </ul>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="service.html">Services</a>
+        <a href="datamahasiswa.php">Data Mahasiswa</a>
     </nav>
-    
-    <hr width="50%" align="center" size="2px" color="black">
-    <h1 align="center">
-        <img src = "https://tse1.mm.bing.net/th?id=OIP.e-K9UEHyjtGA7v1keAL3zgHaHa&pid=Api&P=0&h=180" 
-        height="200px">
-    </h1>
-    <p>
-        <b>Lorem ipsum</b> dolor, <i>sit amet</i> consectetur adipisicing elit. 
-        Quidem cum sapiente animi eligendi temporibus dolores itaque, 
-        maiores eum <u>perferendis reprehenderit?</u> In labore perspiciatis 
-        necessitatibus? Sunt reprehenderit ipsa voluptatum dignissimos? 
-        Eos qui debitis vel harum nihil. Impedit, porro, earum molestiae 
-        exercitationem sed adipisci sequi officiis, aperiam iusto vitae 
-        odit laborum fugiat?
-    </p>
-    <h2>Daftar Belanja</h2>
-    <ol> 
-        <li>Daging
-            <ul>
-                <li>Ayam 1kg</li>
-                <li>Kambing 0,5kg</li>
-            </ul>
-        </li>
-        <li>Sayur
-            <ul>
-                <li>Kangkung</li>
-            </ul>
-        </li>
-        <li>Bumbu
-            <ul>
-                <li>Masako</li>
-            </ul>
-        </li>
-    </ol>
+
+    <main>
+        <img src="https://berikanprotein.org/wp-content/uploads/2022/06/22.png" 
+        height="500px" alt="Profile Image">
+
+        <p><b>Program Studi Informatika</b> UNIMUS adalah pilihan tepat bagi kamu yang ingin menguasai <i>teknologi informasi</i> dan pengembangan perangkat lunak. 
+        Dengan kurikulum yang <u>terstruktur dan berorientasi industri</u>, mahasiswa dibekali keterampilan teknis dan soft skill. 
+        Di dalamnya juga terdapat berbagai kegiatan praktikum dan proyek untuk mengasah kemampuan nyata di bidang informatika.</p>
+
+<h2>Fasilitas dan Kegiatan Favorit</h2>
+<ol> 
+    <li>Laboratorium
+        <ul>
+            <li>Lab Pemrograman</li>
+            <li>Lab Jaringan</li>
+        </ul>
+    </li>
+    <li>Kegiatan Mahasiswa
+        <ul>
+            <li>Workshop Teknologi</li>
+        </ul>
+    </li>
+    <li>Penunjang Akademik
+        <ul>
+            <li>e-Learning UNIMUS</li>
+        </ul>
+    </li>
+</ol>
+    </main>
+
+    <footer>
+        &copy; 2025 Web Pribadi Informatika. All rights reserved.
+    </footer>
+
 </body>
 </html>
